@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 3) do
 
   create_table "students", force: :cascade do |t|
@@ -17,5 +18,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "grade"
     t.datetime "birthdate"
   end
+=======
+ActiveRecord::Schema.define(version: 0) do
+>>>>>>> d54449d43155b5107781d1b94d1b40ee993261a1
 
 end
